@@ -4,10 +4,11 @@ sqlalchemy[asyncio]==2.0.25
 asyncpg==0.29.0
 python-dotenv==1.0.0
 pydantic[email]==2.5.3
+pydantic-settings==2.1.0
 python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
 httpx==0.26.0
-langchain==0.1.0
-langchain-groq==0.0.8
-langchain-google-genai==0.0.6
+langchain>=0.1.0
+langchain-groq>=0.1.0
+langchain-google-genai>=0.0.6
 cloudinary==1.38.0
